@@ -1,10 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Link } from 'gatsby';
+import { Link, navigate } from 'gatsby';
 import posed from 'react-pose';
 import { Container } from './header.css';
 import Title from 'components/title';
-import Nav from 'components/header/nav';
+import { FiMenu, FiCamera } from 'react-icons/fi';
 
 // Example of a component-specific page transition
 const AnimatedContainer = posed.div({
@@ -22,12 +22,24 @@ const AnimatedContainer = posed.div({
   },
 });
 
+// Fake the scan/upload process
+const fakeUpload = () => {
+  setTimeout(() => {
+    navigate('/shop');
+  }, 2000);
+};
+
 const Header = ({ title }) => (
   <AnimatedContainer>
     <Container>
+      <FiMenu />
       <Link to="/">
         <Title as="h1">{title}</Title>
       </Link>
+      <label className="custom-file-upload" onChange={fakeUpload}>
+        <input type="file" accept="image/*" id="file-input" />
+        <FiCamera />
+      </label>
     </Container>
   </AnimatedContainer>
 );

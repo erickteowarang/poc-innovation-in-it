@@ -1,0 +1,29 @@
+{
+  "title": "Shop",
+  "content": "shop.md",
+  "products": [{
+    "title": "Levi's 501 Jeans Regular Fit",
+    "copy": "Available from: $249.00",
+    "image": "../images/products/501-jeans.jpg",
+    "price": "$249.00"
+  },
+  {
+    "title": "Balenciaga Hoodie",
+    "copy": "Available from: $149.00",
+    "image": "../images/products/balenciaga-hoodie.jpg",
+    "price": "$149.00"
+  },
+  {
+    "title": "Adidas Yeezy Boosts",
+    "copy": "Available from: $209.00",
+    "image": "../images/products/yeezy-shoes.jpg",
+    "price": "$209.00"
+  },
+  {
+    "title": "New Era Yankees Hat",
+    "copy": "Available from: $79.00",
+    "image": "../images/products/yankee-hat.jpg",
+    "price": "$79.00"
+  }]
+}
+  

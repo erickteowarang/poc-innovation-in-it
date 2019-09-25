@@ -39,6 +39,7 @@ export default createGlobalStyle`
     font-size: 1.6rem;
     color: #000;
     background-color: #fff;
+    padding-bottom: 7.5rem;
     -webkit-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -89,6 +90,16 @@ export default createGlobalStyle`
   }
 
   p {
+    line-height: 2;
     margin-bottom: 2rem;
+  }
+
+  h2 {
+    font-size: 3.6rem;
+    margin-bottom: 3rem;
+  }
+
+  [data-reach-dialog-content] {
+    width: 75vw !important;
   }
 `;

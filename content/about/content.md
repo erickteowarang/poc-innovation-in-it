@@ -1,21 +1,7 @@
-Find the repository [on GitHub](https://github.com/fabe/gatsby-universal).
+## About This App
 
-```
-# Installation
-gatsby new my-site https://github.com/fabe/gatsby-universal
+This is an app designed to help you find your favorite outfits, from just a picture. 
 
-# To develop
-yarn develop
+Simply use your camera to take a picture of your favorite outfit or upload an existing image, and our app will find you the best deals from the nearest retailers to you. 
 
-# To build
-yarn build
-
-# To test SSR (for Lighthouse etc.)
-yarn ssr
-
-# To format JS (precommit)
-yarn format
-
-# To generate favicons (included in `build`)
-yarn build:favicons
-```
+And hey, if it's a little bit out of your budget, no worries, we'll find you cheaper alternatives as well!
